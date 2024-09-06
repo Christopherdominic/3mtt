@@ -1,0 +1,28 @@
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling the header */
+h1 {
+    font-size: 36px;
+    color: #2c3e50;
+}
+
+/* Styling the paragraph */
+p {
+    font-size: 18px;
+    color: #34495e;
+}
+
+/* Styling the image with border and padding */
+img {
+    border: 3px solid #3498db;
+    padding: 10px;
+}
+
+/* Styling the list */
+ul {
+    list-style-type: square;
+    color: #16a085;
+}
