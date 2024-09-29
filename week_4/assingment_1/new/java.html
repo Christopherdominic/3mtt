@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1 id="title">Hello World</h1>
+  <button onclick="changeTitle()">Click me</button>
+  <h2 id="my">take me home</h2>
+  <button onclick="take()">hello granny</button>
+
+  <script>
+    function changeTitle() {
+      document.getElementById("title").innerText = "Title Changed!";
+    }
+    function take() {
+        document.getElementById("my").innerHTML = "modified"
+    }
+  </script>
+</body>
+</html>
